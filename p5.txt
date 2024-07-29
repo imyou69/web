@@ -32,3 +32,12 @@ function decr()
 <center> <p id="t"> </p> </center>
 </body>
 </html> 
+
+Showhide.js
+ Function flipimage()
+ { dom=document.getElementById(“apple”).style;
+ if(dom.visibility==”visible”)
+ dom.visibility=”hidden”;
+ else
+ dom.visibility=”visible”;
+ }
